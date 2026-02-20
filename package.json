@@ -1,0 +1,36 @@
+{
+  "name": "ia-recipe-generator-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd ai-recipe-generator && npm install",
+    "build": "cd ai-recipe-generator && npm run build",
+    "start": "cd ai-recipe-generator && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevahkagiso-pixel/ia-recipe-generator-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/trevahkagiso-pixel/ia-recipe-generator-/issues"
+  },
+  "homepage": "https://github.com/trevahkagiso-pixel/ia-recipe-generator-#readme",
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.21.0",
+    "@aws-amplify/backend-cli": "^1.8.2",
+    "aws-cdk-lib": "^2.234.1",
+    "constructs": "^10.5.1",
+    "esbuild": "^0.27.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "aws-amplify": "^6.16.2"
+  }
+}
